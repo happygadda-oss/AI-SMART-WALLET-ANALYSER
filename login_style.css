@@ -1,0 +1,31 @@
+/*
+login_style.css
+----------------
+Styling for the login / register screen only.
+Loaded via styles.load_css() in auth.py, before the login form renders.
+*/
+
+.login-wrapper {
+    max-width: 420px;
+    margin: 40px auto 0 auto;
+    padding: 2.5rem 2rem;
+    border-radius: 16px;
+    background: linear-gradient(145deg, #1e2433, #161b26);
+    border: 1px solid #2c3345;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.login-title {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #f5f7fa;
+    margin-bottom: 0.25rem;
+}
+
+.login-subtitle {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #9aa4b2;
+    margin-bottom: 1.5rem;
+}
